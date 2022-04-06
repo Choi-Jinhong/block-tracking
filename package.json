@@ -1,0 +1,25 @@
+{
+  "name": "test-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "block_tracking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js > tracking.log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Choi-Jinhong/gnong-workspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Choi-Jinhong/gnong-workspace/issues"
+  },
+  "homepage": "https://github.com/Choi-Jinhong/gnong-workspace#readme",
+  "dependencies": {
+    "axios": "0.26.1",
+    "discord-webhook-node": "1.1.8",
+    "request": "2.88.2"
+  }
+}
